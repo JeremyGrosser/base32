@@ -1,3 +1,8 @@
+--
+--  Copyright (C) 2025 Jeremy Grosser <jeremy@synack.me>
+--
+--  SPDX-License-Identifier: BSD-3-Clause
+--
 generic
    type Element is mod <>;
    type Index is range <>;
