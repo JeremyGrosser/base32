@@ -80,7 +80,7 @@ package body Base32_Generic is
          end if;
       end loop;
 
-      if Bits > 0 and then Value > 0 then
+      if Bits >= 4 then
          Last := Last + 1;
          Output (Last) := Element (Shift_Left (Value, 8 - Bits) and 16#FF#);
       end if;

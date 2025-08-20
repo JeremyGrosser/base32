@@ -1,6 +1,6 @@
 name = "base32"
 description = "Simple base32 codec"
-version = "1.0.0"
+version = "1.0.1"
 
 authors = ["Jeremy Grosser"]
 maintainers = ["Jeremy Grosser <jeremy@synack.me>"]
